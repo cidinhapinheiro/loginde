@@ -18,13 +18,29 @@ html{
     height: 840px;
     display:flex; 
     background-image:url(9fe89b293e716aede1245cab6c68cef6.png);
-    border-top-right-radius: 35px;
-    border-bottom-right-radius: 35px;
-    border-bottom-left-radius: 35px;
-    border-top-left-radius: 35px;
     opacity: 84%;
+    background-size: cover;
+    border-radius: 35px;
+    opacity: 84%; 
+}
+.ultima_imagem{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    max-width: 20%;
+}
+.ultima_texto{
+    position: relative;
+    top: 130px;
+    left: 30px;
+    display:flex;
+    flex-direction:column; 
+}
+.terceira{
+    align-items: center;
 }
 .login{
+    align-items: center;
     width: 720px;
     height: 840px;
     background-color: #fff;
@@ -33,7 +49,7 @@ html{
     display:flex;
     flex-direction:column; 
 }
-.login h3{
+.texto_log{
     font-size:2rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -46,12 +62,14 @@ html{
     color:black;  
 }
 .login input{
+    display: inline-block;
+    width: 100%;
     margin-bottom: 3rem;
     height: 4rem;
     border-radius:  35px;
     background-color:#f4f4f4;
     border: none;    
-}
+}   
 .links{
     display: flex;
     justify-content:space-around;
@@ -76,6 +94,13 @@ html{
     font-size: 1,4rem; 
 }
 .btn{
+    margin-bottom: 0,4rem;
+    height: 4rem;
+    width: 100%;
+    border: none;
+    border-radius:  35px;
+    cursor: pointer;
+    font-size: 1,4rem; 
     background-color: #465ff1;
     transition: all 500ns ease-in-out;
     size:16px;
@@ -88,4 +113,5 @@ html{
     color:#fff;
 }
 
-    
+
+
