@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto & family= Roboto+Slab:wght@500 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@500&display=swap');
 
 *{
   margin: 0;
@@ -19,25 +19,22 @@ html{
     display:flex; 
     background-image:url(9fe89b293e716aede1245cab6c68cef6.png);
     opacity: 84%;
-    background-size: cover;
     border-radius: 35px;
-    opacity: 84%; 
 }
 .ultima_imagem{
     position: relative;
     top: 100px;
-    left: 30px;
-    max-width: 20%;
+        
 }
 .ultima_texto{
-    position: relative;
-    top: 130px;
-    left: 30px;
+    position:relative;
+    top: 100px;
+    left: 20px;
     display:flex;
     flex-direction:column; 
 }
-.terceira{
-    align-items: center;
+.ultima_texto h3{
+    padding-left: 70px;
 }
 .login{
     align-items: center;
@@ -57,9 +54,10 @@ html{
     align-items: center;
 }
 .login label{
-    font-size: 1,5rem;
+    font-size:15px;
     font-weight:800;
     color:black;  
+    align-items: center;
 }
 .login input{
     display: inline-block;
@@ -75,7 +73,7 @@ html{
     justify-content:space-around;
 }
 .links a{
-    font-size: 18 rem;
+    font-size: 15 rem;
     color: #465ff1;
     margin-bottom: 2rem;
     transition: all 300ns ease;
@@ -85,32 +83,30 @@ html{
     color:#fff;
 }
 .login button{
-    margin-bottom: 0,4rem;
+    
     height: 4rem;
-    width: 60%;
+    width:auto;
     border: none;
     border-radius:  35px;
     cursor: pointer;
-    font-size: 1,4rem; 
 }
 .btn{
-    margin-bottom: 0,4rem;
-    height: 4rem;
-    width: 100%;
-    border: none;
+    margin-bottom: 1rem;     
     border-radius:  35px;
-    cursor: pointer;
-    font-size: 1,4rem; 
+    font-size: 20px; 
     background-color: #465ff1;
     transition: all 500ns ease-in-out;
     size:16px;
-    line-height: 21,1px;
     line-height: 100%;
     vertical-align: top;
 }
 .btn:hover{
     background-color: #1c07d4;
     color:#fff;
+}
+p{
+    padding-left: 60px;
+
 }
 
 
